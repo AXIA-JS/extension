@@ -1,0 +1,40 @@
+{
+  "name": "@axia-js/extension-inject",
+  "description": "A generic injector (usable to any extension), that populates the base exposed interfaces to be used by dapps.",
+  "version": "0.1.0",
+  "type": "module",
+  "author": "Sankar boro <sankar.boro@zeeve.io>",
+  "license": "Apache-2",
+  "main": "index.js",
+  "sideEffects": false,
+  "dependencies": {
+    "@babel/runtime": "^7.15.4"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.157",
+    "@types/firefox-webext-browser": "^82.0.1"
+  },
+  "peerDependencies": {
+    "@axia-js/api": "*"
+  },
+  "exports": {
+    ".": {
+      "require": "./index.cjs",
+      "default": "./index.js"
+    },
+    "./chrome": {
+      "require": "./chrome.cjs",
+      "default": "./chrome.js"
+    },
+    "./package.json": "./package.json",
+    "./packageInfo": {
+      "require": "./packageInfo.cjs",
+      "default": "./packageInfo.js"
+    },
+    "./README.md": "./README.md",
+    "./types": {
+      "require": "./types.cjs",
+      "default": "./types.js"
+    }
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "name": "@axia-js/extension-base",
+  "description": "Functions, classes and other utilities used in @axia-js/extension",
+  "version": "0.1.0",
+  "type": "module",
+  "author": "Sankar boro <sankar.boro@zeeve.io>",
+  "license": "Apache-2",
+  "main": "index.js",
+  "sideEffects": false,
+  "dependencies": {
+    "@axia-js/api": "0.1.0",
+    "@axia-js/extension-dapp": "0.1.0",
+    "@axia-js/extension-inject": "0.1.0",
+    "@axia-js/keyring": "0.1.0",
+    "@axia-js/phishing": "0.1.0",
+    "@axia-js/ui-keyring": "0.1.0",
+    "@babel/runtime": "^7.15.4"
+  },
+  "exports": {
+    ".": {
+      "require": "./index.cjs",
+      "default": "./index.js"
+    },
+    "./background/handlers": {
+      "require": "./background/handlers/index.cjs",
+      "default": "./background/handlers/index.js"
+    },
+    "./background/handlers/Extension": {
+      "require": "./background/handlers/Extension.cjs",
+      "default": "./background/handlers/Extension.js"
+    },
+    "./background/handlers/Extension.test": {
+      "require": "./background/handlers/Extension.test.cjs",
+      "default": "./background/handlers/Extension.test.js"
+    },
+    "./background/handlers/State": {
+      "require": "./background/handlers/State.cjs",
+      "default": "./background/handlers/State.js"
+    },
+    "./background/handlers/subscriptions": {
+      "require": "./background/handlers/subscriptions.cjs",
+      "default": "./background/handlers/subscriptions.js"
+    },
+    "./background/handlers/Tabs": {
+      "require": "./background/handlers/Tabs.cjs",
+      "default": "./background/handlers/Tabs.js"
+    },
+    "./background/RequestBytesSign": {
+      "require": "./background/RequestBytesSign.cjs",
+      "default": "./background/RequestBytesSign.js"
+    },
+    "./background/RequestExtrinsicSign": {
+      "require": "./background/RequestExtrinsicSign.cjs",
+      "default": "./background/RequestExtrinsicSign.js"
+    },
+    "./background/types": {
+      "require": "./background/types.cjs",
+      "default": "./background/types.js"
+    },
+    "./defaults": {
+      "require": "./defaults.cjs",
+      "default": "./defaults.js"
+    },
+    "./package.json": "./package.json",
+    "./packageInfo": {
+      "require": "./packageInfo.cjs",
+      "default": "./packageInfo.js"
+    },
+    "./page": {
+      "require": "./page/index.cjs",
+      "default": "./page/index.js"
+    },
+    "./page/Accounts": {
+      "require": "./page/Accounts.cjs",
+      "default": "./page/Accounts.js"
+    },
+    "./page/Injected": {
+      "require": "./page/Injected.cjs",
+      "default": "./page/Injected.js"
+    },
+    "./page/Metadata": {
+      "require": "./page/Metadata.cjs",
+      "default": "./page/Metadata.js"
+    },
+    "./page/PostMessageProvider": {
+      "require": "./page/PostMessageProvider.cjs",
+      "default": "./page/PostMessageProvider.js"
+    },
+    "./page/Signer": {
+      "require": "./page/Signer.cjs",
+      "default": "./page/Signer.js"
+    },
+    "./page/types": {
+      "require": "./page/types.cjs",
+      "default": "./page/types.js"
+    },
+    "./README.md": "./README.md",
+    "./stores": {
+      "require": "./stores/index.cjs",
+      "default": "./stores/index.js"
+    },
+    "./stores/Accounts": {
+      "require": "./stores/Accounts.cjs",
+      "default": "./stores/Accounts.js"
+    },
+    "./stores/Base": {
+      "require": "./stores/Base.cjs",
+      "default": "./stores/Base.js"
+    },
+    "./stores/Metadata": {
+      "require": "./stores/Metadata.cjs",
+      "default": "./stores/Metadata.js"
+    },
+    "./types": {
+      "require": "./types.cjs",
+      "default": "./types.js"
+    },
+    "./utils": {
+      "require": "./utils/index.cjs",
+      "default": "./utils/index.js"
+    },
+    "./utils/canDerive": {
+      "require": "./utils/canDerive.cjs",
+      "default": "./utils/canDerive.js"
+    }
+  }
+}

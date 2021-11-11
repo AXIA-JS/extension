@@ -1,0 +1,20 @@
+{
+  "name": "@axia-js/extension-compat-metamask",
+  "description": "Metamask compatibility layer",
+  "version": "0.1.0",
+  "type": "module",
+  "author": "Sankar boro <sankar.boro@zeeve.io>",
+  "license": "Apache-2",
+  "main": "index.js",
+  "sideEffects": false,
+  "dependencies": {
+    "@axia-js/extension-inject": "0.1.0",
+    "@axia-js/util": "0.1.0",
+    "@babel/runtime": "^7.15.4",
+    "@metamask/detect-provider": "^1.2.0",
+    "web3": "^1.5.2"
+  },
+  "peerDependencies": {
+    "@axia-js/util": "*"
+  }
+}

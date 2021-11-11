@@ -1,0 +1,56 @@
+{
+  "repository": "https://github.com/axia-js/extension",
+  "author": "Sankar boro <sankar.boro@zeeve.io>",
+  "license": "Apache-2",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "resolutions": {
+    "@axia-js/api": "0.1.0",
+    "@axia-js/keyring": "0.1.0",
+    "@axia-js/networks": "0.1.0",
+    "@axia-js/types": "0.1.0",
+    "@axia-js/util": "0.1.0",
+    "@axia-js/util-crypto": "0.1.0",
+    "@axia-js/x-fetch": "0.1.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "safe-buffer": "^5.2.1",
+    "typescript": "^4.4.3",
+    "webpack": "5.41.1"
+  },
+  "scripts": {
+    "build": "axia-dev-build-ts && yarn build:zip && yarn build:rollup",
+    "build:extra": "yarn build:i18n && yarn build:ui",
+    "build:i18n": "i18next-scanner --config i18next-scanner.config.js",
+    "build:release": "axia-ci-ghact-build",
+    "build:rollup": "axia-exec-rollup --config",
+    "build:ui": "cd packages/extension && NODE_ENV=production yarn webpack --config webpack.extension.cjs --mode production",
+    "build:zip": "yarn build:zip:dst && yarn build:zip:src",
+    "build:zip:dst": "rm -rf ./master-build.zip && cd packages/extension/build && zip -r -FS ../../../master-build.zip .",
+    "build:zip:src": "rm -rf ./master-src.zip && zip -r -x '*build/*' -x '*node_modules*' -FS ./master-src.zip packages .editorconfig .eslintignore .eslintrc.js babel.config.cjs CHANGELOG.md CONTRIBUTING.md i18next-scanner.config.js jest.config.cjs LICENSE package.json README.md tsconfig.json yarn.lock",
+    "lint": "axia-dev-run-lint",
+    "lint:css": "stylelint './packages/**/src/**/*.tsx'",
+    "clean": "axia-dev-clean-build",
+    "postinstall": "axia-dev-yarn-only",
+    "start": "yarn watch",
+    "test": "axia-dev-run-test --detectOpenHandles",
+    "test:one": "axia-dev-run-test --detectOpenHandles",
+    "watch": "cd packages/extension && yarn axia-exec-webpack --config webpack.watch.cjs --mode development --watch"
+  },
+  "devDependencies": {
+    "@axia-js/dev": "0.1.0",
+    "@babel/core": "^7.15.5",
+    "@types/jest": "^27.0.1",
+    "i18next-scanner": "^3.0.0",
+    "sinon-chrome": "^3.0.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-recommended": "^5.0.0",
+    "stylelint-config-styled-components": "^0.1.1"
+  },
+  "packageManager": "yarn@3.0.1",
+  "dependencies": {
+    "@axia/extension": "0.1.0"
+  }
+}

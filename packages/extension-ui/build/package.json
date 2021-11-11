@@ -1,0 +1,586 @@
+{
+  "name": "@axia-js/extension-ui",
+  "description": "A sample signer extension for the @axia-js/api",
+  "version": "0.1.0",
+  "type": "module",
+  "author": "Sankar boro <sankar.boro@zeeve.io>",
+  "license": "Apache-2",
+  "dependencies": {
+    "@axia-js/extension-base": "0.1.0",
+    "@axia-js/extension-dapp": "0.1.0",
+    "@axia-js/extension-inject": "0.1.0",
+    "@axia-js/hw-ledger": "0.1.0",
+    "@axia-js/keyring": "0.1.0",
+    "@axia-js/networks": "0.1.0",
+    "@axia-js/react-identicon": "0.1.0",
+    "@axia-js/react-qr": "0.1.0",
+    "@axia-js/util": "0.1.0",
+    "@axia-js/util-crypto": "0.1.0",
+    "@babel/runtime": "^7.15.4",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/free-regular-svg-icons": "^5.15.4",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.15",
+    "file-saver": "^2.0.5",
+    "i18next": "^20.6.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-dropzone": "^11.3.5",
+    "react-i18next": "^11.12.0",
+    "react-is": "^17.0.2",
+    "react-router": "^5.2.1",
+    "react-router-dom": "^5.3.0",
+    "styled-components": "^5.3.1"
+  },
+  "devDependencies": {
+    "@types/bn.js": "^4.11.6",
+    "@types/enzyme": "^3.10.9",
+    "@types/enzyme-adapter-react-16": "^1.0.6",
+    "@types/file-saver": "^2.0.3",
+    "@types/react-copy-to-clipboard": "^5.0.1",
+    "@types/react-dom": "^17.0.9",
+    "@types/react-router": "^5.1.16",
+    "@types/react-router-dom": "^5.1.8",
+    "@types/sinon-chrome": "^2.2.11",
+    "@types/styled-components": "^5.1.14",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.3",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "sinon-chrome": "^3.0.1"
+  },
+  "exports": {
+    ".": {
+      "require": "./index.cjs",
+      "default": "./index.js"
+    },
+    "./assets/arrow-down.svg": "./assets/arrow-down.svg",
+    "./assets/checkmark.svg": "./assets/checkmark.svg",
+    "./assets/details.svg": "./assets/details.svg",
+    "./assets/pjs.svg": "./assets/pjs.svg",
+    "./assets/spinner-white.png": "./assets/spinner-white.png",
+    "./assets/spinner.png": "./assets/spinner.png",
+    "./components": {
+      "require": "./components/index.cjs",
+      "default": "./components/index.js"
+    },
+    "./components/AccountNamePasswordCreation": {
+      "require": "./components/AccountNamePasswordCreation.cjs",
+      "default": "./components/AccountNamePasswordCreation.js"
+    },
+    "./components/AccountNamePasswordCreation.test": {
+      "require": "./components/AccountNamePasswordCreation.test.cjs",
+      "default": "./components/AccountNamePasswordCreation.test.js"
+    },
+    "./components/ActionBar": {
+      "require": "./components/ActionBar.cjs",
+      "default": "./components/ActionBar.js"
+    },
+    "./components/ActionText": {
+      "require": "./components/ActionText.cjs",
+      "default": "./components/ActionText.js"
+    },
+    "./components/Address": {
+      "require": "./components/Address.cjs",
+      "default": "./components/Address.js"
+    },
+    "./components/Address.test": {
+      "require": "./components/Address.test.cjs",
+      "default": "./components/Address.test.js"
+    },
+    "./components/BackButton": {
+      "require": "./components/BackButton.cjs",
+      "default": "./components/BackButton.js"
+    },
+    "./components/Box": {
+      "require": "./components/Box.cjs",
+      "default": "./components/Box.js"
+    },
+    "./components/Button": {
+      "require": "./components/Button.cjs",
+      "default": "./components/Button.js"
+    },
+    "./components/ButtonArea": {
+      "require": "./components/ButtonArea.cjs",
+      "default": "./components/ButtonArea.js"
+    },
+    "./components/ButtonWithSubtitle": {
+      "require": "./components/ButtonWithSubtitle.cjs",
+      "default": "./components/ButtonWithSubtitle.js"
+    },
+    "./components/Checkbox": {
+      "require": "./components/Checkbox.cjs",
+      "default": "./components/Checkbox.js"
+    },
+    "./components/contexts": {
+      "require": "./components/contexts.cjs",
+      "default": "./components/contexts.js"
+    },
+    "./components/Dropdown": {
+      "require": "./components/Dropdown.cjs",
+      "default": "./components/Dropdown.js"
+    },
+    "./components/ErrorBoundary": {
+      "require": "./components/ErrorBoundary.cjs",
+      "default": "./components/ErrorBoundary.js"
+    },
+    "./components/Icon": {
+      "require": "./components/Icon.cjs",
+      "default": "./components/Icon.js"
+    },
+    "./components/Identicon": {
+      "require": "./components/Identicon.cjs",
+      "default": "./components/Identicon.js"
+    },
+    "./components/InputFileWithLabel": {
+      "require": "./components/InputFileWithLabel.cjs",
+      "default": "./components/InputFileWithLabel.js"
+    },
+    "./components/InputFilter": {
+      "require": "./components/InputFilter.cjs",
+      "default": "./components/InputFilter.js"
+    },
+    "./components/InputWithLabel": {
+      "require": "./components/InputWithLabel.cjs",
+      "default": "./components/InputWithLabel.js"
+    },
+    "./components/Label": {
+      "require": "./components/Label.cjs",
+      "default": "./components/Label.js"
+    },
+    "./components/Link": {
+      "require": "./components/Link.cjs",
+      "default": "./components/Link.js"
+    },
+    "./components/List": {
+      "require": "./components/List.cjs",
+      "default": "./components/List.js"
+    },
+    "./components/Loading": {
+      "require": "./components/Loading.cjs",
+      "default": "./components/Loading.js"
+    },
+    "./components/Main": {
+      "require": "./components/Main.cjs",
+      "default": "./components/Main.js"
+    },
+    "./components/Menu": {
+      "require": "./components/Menu.cjs",
+      "default": "./components/Menu.js"
+    },
+    "./components/MenuDivider": {
+      "require": "./components/MenuDivider.cjs",
+      "default": "./components/MenuDivider.js"
+    },
+    "./components/MenuItem": {
+      "require": "./components/MenuItem.cjs",
+      "default": "./components/MenuItem.js"
+    },
+    "./components/MnemonicSeed": {
+      "require": "./components/MnemonicSeed.cjs",
+      "default": "./components/MnemonicSeed.js"
+    },
+    "./components/NextStepButton": {
+      "require": "./components/NextStepButton.cjs",
+      "default": "./components/NextStepButton.js"
+    },
+    "./components/Spinner": {
+      "require": "./components/Spinner.cjs",
+      "default": "./components/Spinner.js"
+    },
+    "./components/Svg": {
+      "require": "./components/Svg.cjs",
+      "default": "./components/Svg.js"
+    },
+    "./components/Switch": {
+      "require": "./components/Switch.cjs",
+      "default": "./components/Switch.js"
+    },
+    "./components/Table": {
+      "require": "./components/Table.cjs",
+      "default": "./components/Table.js"
+    },
+    "./components/TextAreaWithLabel": {
+      "require": "./components/TextAreaWithLabel.cjs",
+      "default": "./components/TextAreaWithLabel.js"
+    },
+    "./components/TextInputs": {
+      "require": "./components/TextInputs.cjs",
+      "default": "./components/TextInputs.js"
+    },
+    "./components/themes": {
+      "require": "./components/themes.cjs",
+      "default": "./components/themes.js"
+    },
+    "./components/Toast/Toast": {
+      "require": "./components/Toast/Toast.cjs",
+      "default": "./components/Toast/Toast.js"
+    },
+    "./components/Toast/ToastProvider": {
+      "require": "./components/Toast/ToastProvider.cjs",
+      "default": "./components/Toast/ToastProvider.js"
+    },
+    "./components/translate": {
+      "require": "./components/translate.cjs",
+      "default": "./components/translate.js"
+    },
+    "./components/types": {
+      "require": "./components/types.cjs",
+      "default": "./components/types.js"
+    },
+    "./components/ValidatedInput": {
+      "require": "./components/ValidatedInput.cjs",
+      "default": "./components/ValidatedInput.js"
+    },
+    "./components/VerticalSpace": {
+      "require": "./components/VerticalSpace.cjs",
+      "default": "./components/VerticalSpace.js"
+    },
+    "./components/View": {
+      "require": "./components/View.cjs",
+      "default": "./components/View.js"
+    },
+    "./components/Warning": {
+      "require": "./components/Warning.cjs",
+      "default": "./components/Warning.js"
+    },
+    "./createView": {
+      "require": "./createView.cjs",
+      "default": "./createView.js"
+    },
+    "./hooks/useGenesisHashOptions": {
+      "require": "./hooks/useGenesisHashOptions.cjs",
+      "default": "./hooks/useGenesisHashOptions.js"
+    },
+    "./hooks/useIsMounted": {
+      "require": "./hooks/useIsMounted.cjs",
+      "default": "./hooks/useIsMounted.js"
+    },
+    "./hooks/useIsPopup": {
+      "require": "./hooks/useIsPopup.cjs",
+      "default": "./hooks/useIsPopup.js"
+    },
+    "./hooks/useLedger": {
+      "require": "./hooks/useLedger.cjs",
+      "default": "./hooks/useLedger.js"
+    },
+    "./hooks/useMetadata": {
+      "require": "./hooks/useMetadata.cjs",
+      "default": "./hooks/useMetadata.js"
+    },
+    "./hooks/useOutsideClick": {
+      "require": "./hooks/useOutsideClick.cjs",
+      "default": "./hooks/useOutsideClick.js"
+    },
+    "./hooks/useToast": {
+      "require": "./hooks/useToast.cjs",
+      "default": "./hooks/useToast.js"
+    },
+    "./hooks/useTranslation": {
+      "require": "./hooks/useTranslation.cjs",
+      "default": "./hooks/useTranslation.js"
+    },
+    "./i18n/Backend": {
+      "require": "./i18n/Backend.cjs",
+      "default": "./i18n/Backend.js"
+    },
+    "./i18n/cache": {
+      "require": "./i18n/cache.cjs",
+      "default": "./i18n/cache.js"
+    },
+    "./i18n/i18n": {
+      "require": "./i18n/i18n.cjs",
+      "default": "./i18n/i18n.js"
+    },
+    "./messaging": {
+      "require": "./messaging.cjs",
+      "default": "./messaging.js"
+    },
+    "./messaging.test": {
+      "require": "./messaging.test.cjs",
+      "default": "./messaging.test.js"
+    },
+    "./MetadataCache": {
+      "require": "./MetadataCache.cjs",
+      "default": "./MetadataCache.js"
+    },
+    "./package.json": "./package.json",
+    "./packageInfo": {
+      "require": "./packageInfo.cjs",
+      "default": "./packageInfo.js"
+    },
+    "./partials": {
+      "require": "./partials/index.cjs",
+      "default": "./partials/index.js"
+    },
+    "./partials/Header": {
+      "require": "./partials/Header.cjs",
+      "default": "./partials/Header.js"
+    },
+    "./partials/Header.test": {
+      "require": "./partials/Header.test.cjs",
+      "default": "./partials/Header.test.js"
+    },
+    "./partials/HeaderWithSteps": {
+      "require": "./partials/HeaderWithSteps.cjs",
+      "default": "./partials/HeaderWithSteps.js"
+    },
+    "./partials/MenuAdd": {
+      "require": "./partials/MenuAdd.cjs",
+      "default": "./partials/MenuAdd.js"
+    },
+    "./partials/MenuSettings": {
+      "require": "./partials/MenuSettings.cjs",
+      "default": "./partials/MenuSettings.js"
+    },
+    "./partials/Name": {
+      "require": "./partials/Name.cjs",
+      "default": "./partials/Name.js"
+    },
+    "./partials/Password": {
+      "require": "./partials/Password.cjs",
+      "default": "./partials/Password.js"
+    },
+    "./Popup": {
+      "require": "./Popup/index.cjs",
+      "default": "./Popup/index.js"
+    },
+    "./Popup/Accounts": {
+      "require": "./Popup/Accounts/index.cjs",
+      "default": "./Popup/Accounts/index.js"
+    },
+    "./Popup/Accounts/Account": {
+      "require": "./Popup/Accounts/Account.cjs",
+      "default": "./Popup/Accounts/Account.js"
+    },
+    "./Popup/Accounts/Account.test": {
+      "require": "./Popup/Accounts/Account.test.cjs",
+      "default": "./Popup/Accounts/Account.test.js"
+    },
+    "./Popup/Accounts/AccountsTree": {
+      "require": "./Popup/Accounts/AccountsTree.cjs",
+      "default": "./Popup/Accounts/AccountsTree.js"
+    },
+    "./Popup/Accounts/AddAccount": {
+      "require": "./Popup/Accounts/AddAccount.cjs",
+      "default": "./Popup/Accounts/AddAccount.js"
+    },
+    "./Popup/Accounts/AddAccountImage": {
+      "require": "./Popup/Accounts/AddAccountImage.cjs",
+      "default": "./Popup/Accounts/AddAccountImage.js"
+    },
+    "./Popup/AuthManagement": {
+      "require": "./Popup/AuthManagement/index.cjs",
+      "default": "./Popup/AuthManagement/index.js"
+    },
+    "./Popup/AuthManagement/WebsiteEntry": {
+      "require": "./Popup/AuthManagement/WebsiteEntry.cjs",
+      "default": "./Popup/AuthManagement/WebsiteEntry.js"
+    },
+    "./Popup/Authorize": {
+      "require": "./Popup/Authorize/index.cjs",
+      "default": "./Popup/Authorize/index.js"
+    },
+    "./Popup/Authorize/Authorize.test": {
+      "require": "./Popup/Authorize/Authorize.test.cjs",
+      "default": "./Popup/Authorize/Authorize.test.js"
+    },
+    "./Popup/Authorize/Request": {
+      "require": "./Popup/Authorize/Request.cjs",
+      "default": "./Popup/Authorize/Request.js"
+    },
+    "./Popup/CreateAccount": {
+      "require": "./Popup/CreateAccount/index.cjs",
+      "default": "./Popup/CreateAccount/index.js"
+    },
+    "./Popup/CreateAccount/CreateAccount.test": {
+      "require": "./Popup/CreateAccount/CreateAccount.test.cjs",
+      "default": "./Popup/CreateAccount/CreateAccount.test.js"
+    },
+    "./Popup/CreateAccount/Mnemonic": {
+      "require": "./Popup/CreateAccount/Mnemonic.cjs",
+      "default": "./Popup/CreateAccount/Mnemonic.js"
+    },
+    "./Popup/Derive": {
+      "require": "./Popup/Derive/index.cjs",
+      "default": "./Popup/Derive/index.js"
+    },
+    "./Popup/Derive/AddressDropdown": {
+      "require": "./Popup/Derive/AddressDropdown.cjs",
+      "default": "./Popup/Derive/AddressDropdown.js"
+    },
+    "./Popup/Derive/DerivationPath": {
+      "require": "./Popup/Derive/DerivationPath.cjs",
+      "default": "./Popup/Derive/DerivationPath.js"
+    },
+    "./Popup/Derive/Derive.test": {
+      "require": "./Popup/Derive/Derive.test.cjs",
+      "default": "./Popup/Derive/Derive.test.js"
+    },
+    "./Popup/Derive/SelectParent": {
+      "require": "./Popup/Derive/SelectParent.cjs",
+      "default": "./Popup/Derive/SelectParent.js"
+    },
+    "./Popup/Export": {
+      "require": "./Popup/Export.cjs",
+      "default": "./Popup/Export.js"
+    },
+    "./Popup/Export.test": {
+      "require": "./Popup/Export.test.cjs",
+      "default": "./Popup/Export.test.js"
+    },
+    "./Popup/ExportAll": {
+      "require": "./Popup/ExportAll.cjs",
+      "default": "./Popup/ExportAll.js"
+    },
+    "./Popup/Forget": {
+      "require": "./Popup/Forget.cjs",
+      "default": "./Popup/Forget.js"
+    },
+    "./Popup/ImportLedger": {
+      "require": "./Popup/ImportLedger.cjs",
+      "default": "./Popup/ImportLedger.js"
+    },
+    "./Popup/ImportQr": {
+      "require": "./Popup/ImportQr.cjs",
+      "default": "./Popup/ImportQr.js"
+    },
+    "./Popup/ImportQr.test": {
+      "require": "./Popup/ImportQr.test.cjs",
+      "default": "./Popup/ImportQr.test.js"
+    },
+    "./Popup/ImportSeed": {
+      "require": "./Popup/ImportSeed/index.cjs",
+      "default": "./Popup/ImportSeed/index.js"
+    },
+    "./Popup/ImportSeed/ImportSeed.test": {
+      "require": "./Popup/ImportSeed/ImportSeed.test.cjs",
+      "default": "./Popup/ImportSeed/ImportSeed.test.js"
+    },
+    "./Popup/ImportSeed/SeedAndPath": {
+      "require": "./Popup/ImportSeed/SeedAndPath.cjs",
+      "default": "./Popup/ImportSeed/SeedAndPath.js"
+    },
+    "./Popup/Metadata": {
+      "require": "./Popup/Metadata/index.cjs",
+      "default": "./Popup/Metadata/index.js"
+    },
+    "./Popup/Metadata/Request": {
+      "require": "./Popup/Metadata/Request.cjs",
+      "default": "./Popup/Metadata/Request.js"
+    },
+    "./Popup/PhishingDetected": {
+      "require": "./Popup/PhishingDetected.cjs",
+      "default": "./Popup/PhishingDetected.js"
+    },
+    "./Popup/RestoreJson": {
+      "require": "./Popup/RestoreJson.cjs",
+      "default": "./Popup/RestoreJson.js"
+    },
+    "./Popup/Signing": {
+      "require": "./Popup/Signing/index.cjs",
+      "default": "./Popup/Signing/index.js"
+    },
+    "./Popup/Signing/Bytes": {
+      "require": "./Popup/Signing/Bytes.cjs",
+      "default": "./Popup/Signing/Bytes.js"
+    },
+    "./Popup/Signing/Extrinsic": {
+      "require": "./Popup/Signing/Extrinsic.cjs",
+      "default": "./Popup/Signing/Extrinsic.js"
+    },
+    "./Popup/Signing/LedgerSign": {
+      "require": "./Popup/Signing/LedgerSign.cjs",
+      "default": "./Popup/Signing/LedgerSign.js"
+    },
+    "./Popup/Signing/metadataMock": {
+      "require": "./Popup/Signing/metadataMock.cjs",
+      "default": "./Popup/Signing/metadataMock.js"
+    },
+    "./Popup/Signing/Qr": {
+      "require": "./Popup/Signing/Qr.cjs",
+      "default": "./Popup/Signing/Qr.js"
+    },
+    "./Popup/Signing/Request": {
+      "require": "./Popup/Signing/Request/index.cjs",
+      "default": "./Popup/Signing/Request/index.js"
+    },
+    "./Popup/Signing/Request/SignArea": {
+      "require": "./Popup/Signing/Request/SignArea.cjs",
+      "default": "./Popup/Signing/Request/SignArea.js"
+    },
+    "./Popup/Signing/Signing.test": {
+      "require": "./Popup/Signing/Signing.test.cjs",
+      "default": "./Popup/Signing/Signing.test.js"
+    },
+    "./Popup/Signing/TransactionIndex": {
+      "require": "./Popup/Signing/TransactionIndex.cjs",
+      "default": "./Popup/Signing/TransactionIndex.js"
+    },
+    "./Popup/Signing/Unlock": {
+      "require": "./Popup/Signing/Unlock.cjs",
+      "default": "./Popup/Signing/Unlock.js"
+    },
+    "./Popup/Welcome": {
+      "require": "./Popup/Welcome.cjs",
+      "default": "./Popup/Welcome.js"
+    },
+    "./README.md": "./README.md",
+    "./testHelpers": {
+      "require": "./testHelpers.cjs",
+      "default": "./testHelpers.js"
+    },
+    "./types": {
+      "require": "./types.cjs",
+      "default": "./types.js"
+    },
+    "./util/buildHierarchy": {
+      "require": "./util/buildHierarchy.cjs",
+      "default": "./util/buildHierarchy.js"
+    },
+    "./util/buildHierarchy.test": {
+      "require": "./util/buildHierarchy.test.cjs",
+      "default": "./util/buildHierarchy.test.js"
+    },
+    "./util/chains": {
+      "require": "./util/chains.cjs",
+      "default": "./util/chains.js"
+    },
+    "./util/defaultType": {
+      "require": "./util/defaultType.cjs",
+      "default": "./util/defaultType.js"
+    },
+    "./util/getLanguageOptions": {
+      "require": "./util/getLanguageOptions.cjs",
+      "default": "./util/getLanguageOptions.js"
+    },
+    "./util/getNetworkMap": {
+      "require": "./util/getNetworkMap.cjs",
+      "default": "./util/getNetworkMap.js"
+    },
+    "./util/getParentNameSuri": {
+      "require": "./util/getParentNameSuri.cjs",
+      "default": "./util/getParentNameSuri.js"
+    },
+    "./util/legerChains": {
+      "require": "./util/legerChains.cjs",
+      "default": "./util/legerChains.js"
+    },
+    "./util/nextDerivationPath": {
+      "require": "./util/nextDerivationPath.cjs",
+      "default": "./util/nextDerivationPath.js"
+    },
+    "./util/nextDerivationPath.test": {
+      "require": "./util/nextDerivationPath.test.cjs",
+      "default": "./util/nextDerivationPath.test.js"
+    },
+    "./util/typeGuards": {
+      "require": "./util/typeGuards.cjs",
+      "default": "./util/typeGuards.js"
+    },
+    "./util/validators": {
+      "require": "./util/validators.cjs",
+      "default": "./util/validators.js"
+    }
+  }
+}

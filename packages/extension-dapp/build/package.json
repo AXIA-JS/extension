@@ -10,13 +10,13 @@
   "dependencies": {
     "@axia-js/extension-inject": "0.1.0",
     "@axia-js/util": "0.1.0",
-    "@axia-js/util-crypto": "0.1.0",
+    "@axia-js/util-crypto": "0.1.2",
     "@babel/runtime": "^7.15.4"
   },
   "peerDependencies": {
-    "@axia-js/api": "*",
-    "@axia-js/util": "*",
-    "@axia-js/util-crypto": "*"
+    "@axia-js/api": "0.1.0",
+    "@axia-js/util": "0.1.0",
+    "@axia-js/util-crypto": "0.1.2"
   },
   "exports": {
     ".": {

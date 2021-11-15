@@ -15,6 +15,6 @@
     "@types/firefox-webext-browser": "^82.0.1"
   },
   "peerDependencies": {
-    "@axia-js/api": "*"
+    "@axia-js/api": "0.1.0"
   }
 }

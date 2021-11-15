@@ -12,7 +12,7 @@
     "@babel/runtime": "^7.15.4"
   },
   "peerDependencies": {
-    "@axia-js/api": "*"
+    "@axia-js/api": "0.1.0"
   },
   "exports": {
     ".": {

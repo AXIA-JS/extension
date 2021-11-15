@@ -15,6 +15,6 @@
     "web3": "^1.5.2"
   },
   "peerDependencies": {
-    "@axia-js/util": "*"
+    "@axia-js/util": "0.1.0"
   }
 }

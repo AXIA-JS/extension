@@ -9,11 +9,11 @@
   ],
   "resolutions": {
     "@axia-js/api": "0.1.0",
-    "@axia-js/keyring": "0.1.0",
+    "@axia-js/keyring": "0.1.2",
     "@axia-js/networks": "0.1.0",
     "@axia-js/types": "0.1.0",
     "@axia-js/util": "0.1.0",
-    "@axia-js/util-crypto": "0.1.0",
+    "@axia-js/util-crypto": "0.1.2",
     "@axia-js/x-fetch": "0.1.0",
     "babel-core": "^7.0.0-bridge.0",
     "safe-buffer": "^5.2.1",
@@ -51,6 +51,6 @@
   },
   "packageManager": "yarn@3.0.1",
   "dependencies": {
-    "@axia/extension": "0.1.0"
+    "@axia-js/extension": "0.1.0"
   }
 }

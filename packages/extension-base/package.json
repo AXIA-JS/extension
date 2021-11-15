@@ -11,7 +11,7 @@
     "@axia-js/api": "0.1.0",
     "@axia-js/extension-dapp": "0.1.0",
     "@axia-js/extension-inject": "0.1.0",
-    "@axia-js/keyring": "0.1.0",
+    "@axia-js/keyring": "0.1.2",
     "@axia-js/phishing": "0.1.0",
     "@axia-js/ui-keyring": "0.1.0",
     "@babel/runtime": "^7.15.4"

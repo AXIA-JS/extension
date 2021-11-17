@@ -31,7 +31,7 @@ function MenuItem({
 
 var _default = (0, _styledComponents.default)(MenuItem).withConfig({
   displayName: "MenuItem",
-  componentId: "sc-anwiy8-0"
+  componentId: "sc-xmh0bc-0"
 })(({
   theme
 }) => `

@@ -33,7 +33,7 @@ function NextStepButton(_ref) {
 
 export default styled(NextStepButton).withConfig({
   displayName: "NextStepButton",
-  componentId: "sc-15gossc-0"
+  componentId: "sc-1fg1l8t-0"
 })(({
   theme
 }) => `

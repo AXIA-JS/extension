@@ -19,7 +19,7 @@ function Table({
 
 export default /*#__PURE__*/React.memo(styled(Table).withConfig({
   displayName: "Table",
-  componentId: "sc-1w4y9t7-0"
+  componentId: "sc-1mcqd9k-0"
 })(({
   theme
 }) => `

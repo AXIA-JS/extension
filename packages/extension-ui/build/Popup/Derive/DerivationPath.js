@@ -61,7 +61,7 @@ function DerivationPath({
 
 export default /*#__PURE__*/React.memo(styled(DerivationPath).withConfig({
   displayName: "DerivationPath",
-  componentId: "sc-1456qp9-0"
+  componentId: "sc-1evmrk6-0"
 })(({
   theme
 }) => `

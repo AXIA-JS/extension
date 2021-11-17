@@ -154,7 +154,7 @@ function MenuAdd({
 
 var _default = /*#__PURE__*/_react.default.memo((0, _styledComponents.default)(MenuAdd).withConfig({
   displayName: "MenuAdd",
-  componentId: "sc-goigwd-0"
+  componentId: "sc-azulxc-0"
 })(({
   theme
 }) => `

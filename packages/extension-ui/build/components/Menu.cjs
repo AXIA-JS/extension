@@ -29,7 +29,7 @@ function Menu({
 
 var _default = (0, _styledComponents.default)(Menu).withConfig({
   displayName: "Menu",
-  componentId: "sc-rntca8-0"
+  componentId: "sc-1s6rfvf-0"
 })(({
   theme
 }) => `

@@ -173,7 +173,7 @@ function MenuSettings({
 
 var _default = /*#__PURE__*/_react.default.memo((0, _styledComponents.default)(MenuSettings).withConfig({
   displayName: "MenuSettings",
-  componentId: "sc-1nlpgb-0"
+  componentId: "sc-7f8b8j-0"
 })(({
   theme
 }) => `

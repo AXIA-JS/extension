@@ -39,7 +39,7 @@ function MnemonicSeed({
 
 export default styled(MnemonicSeed).withConfig({
   displayName: "MnemonicSeed",
-  componentId: "sc-klm78s-0"
+  componentId: "sc-57zyzk-0"
 })(({
   theme
 }) => `

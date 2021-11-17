@@ -39,7 +39,7 @@ function PhishingDetected({
     }), /*#__PURE__*/(0, _jsxRuntime.jsxs)("div", {
       className: className,
       children: [/*#__PURE__*/(0, _jsxRuntime.jsx)("p", {
-        children: t('You have been redirected because the AXIACoin{.js} extension believes that this website could compromise the security of your accounts and your tokens.')
+        children: t('You have been redirected because the AXIA{.js} extension believes that this website could compromise the security of your accounts and your tokens.')
       }), /*#__PURE__*/(0, _jsxRuntime.jsx)("p", {
         className: "websiteAddress",
         children: decodedWebsite
@@ -58,7 +58,7 @@ function PhishingDetected({
 
 var _default = (0, _styledComponents.default)(PhishingDetected).withConfig({
   displayName: "PhishingDetected",
-  componentId: "sc-16kfpjk-0"
+  componentId: "sc-1omir55-0"
 })(({
   theme
 }) => `

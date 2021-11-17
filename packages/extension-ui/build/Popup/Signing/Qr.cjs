@@ -88,7 +88,7 @@ function Qr({
 
 var _default = (0, _styledComponents.default)(Qr).withConfig({
   displayName: "Qr",
-  componentId: "sc-13fx8uv-0"
+  componentId: "sc-19l7dra-0"
 })(["height:100%;.qrContainer{margin:5px auto 10px auto;width:65%;img{border:white solid 1px;}}.scanButton{margin-bottom:8px;}"]);
 
 exports.default = _default;

@@ -49,7 +49,7 @@ function Switch({
 
 var _default = (0, _styledComponents.default)(Switch).withConfig({
   displayName: "Switch",
-  componentId: "sc-fg9ph8-0"
+  componentId: "sc-1qhye2q-0"
 })(({
   theme
 }) => `

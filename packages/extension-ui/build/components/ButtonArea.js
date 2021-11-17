@@ -16,7 +16,7 @@ const ButtonArea = function ({
 
 export default styled(ButtonArea).withConfig({
   displayName: "ButtonArea",
-  componentId: "sc-1t7p0uz-0"
+  componentId: "sc-iqj4e0-0"
 })(({
   theme
 }) => `

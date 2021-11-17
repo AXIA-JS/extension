@@ -25,7 +25,7 @@ const List = ({
 
 var _default = (0, _styledComponents.default)(List).withConfig({
   displayName: "List",
-  componentId: "sc-eudvqu-0"
+  componentId: "sc-n8zxx7-0"
 })(({
   theme
 }) => `

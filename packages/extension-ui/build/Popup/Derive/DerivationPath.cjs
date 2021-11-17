@@ -79,7 +79,7 @@ function DerivationPath({
 
 var _default = /*#__PURE__*/_react.default.memo((0, _styledComponents.default)(DerivationPath).withConfig({
   displayName: "DerivationPath",
-  componentId: "sc-1456qp9-0"
+  componentId: "sc-1evmrk6-0"
 })(({
   theme
 }) => `

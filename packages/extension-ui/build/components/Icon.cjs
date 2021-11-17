@@ -29,7 +29,7 @@ function Icon({
 
 var _default = (0, _styledComponents.default)(Icon).withConfig({
   displayName: "Icon",
-  componentId: "sc-c8ukvf-0"
+  componentId: "sc-nr7p5x-0"
 })(({
   onClick
 }) => `

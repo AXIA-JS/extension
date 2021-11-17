@@ -26,7 +26,7 @@ function PhishingDetected({
     }), /*#__PURE__*/_jsxs("div", {
       className: className,
       children: [/*#__PURE__*/_jsx("p", {
-        children: t('You have been redirected because the AXIACoin{.js} extension believes that this website could compromise the security of your accounts and your tokens.')
+        children: t('You have been redirected because the AXIA{.js} extension believes that this website could compromise the security of your accounts and your tokens.')
       }), /*#__PURE__*/_jsx("p", {
         className: "websiteAddress",
         children: decodedWebsite
@@ -45,7 +45,7 @@ function PhishingDetected({
 
 export default styled(PhishingDetected).withConfig({
   displayName: "PhishingDetected",
-  componentId: "sc-16kfpjk-0"
+  componentId: "sc-1omir55-0"
 })(({
   theme
 }) => `

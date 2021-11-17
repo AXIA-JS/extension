@@ -107,7 +107,7 @@ function SeedAndPath({
 
 export default styled(SeedAndPath).withConfig({
   displayName: "SeedAndPath",
-  componentId: "sc-181u3hg-0"
+  componentId: "sc-1u2ll6n-0"
 })(({
   theme
 }) => `

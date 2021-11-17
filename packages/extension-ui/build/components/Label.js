@@ -20,7 +20,7 @@ function Label({
 
 export default styled(Label).withConfig({
   displayName: "Label",
-  componentId: "sc-vfik0m-0"
+  componentId: "sc-vs6qy1-0"
 })(({
   theme
 }) => `

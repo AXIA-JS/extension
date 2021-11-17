@@ -166,7 +166,7 @@ function Upload({
 
 var _default = (0, _styledComponents.default)(Upload).withConfig({
   displayName: "RestoreJson",
-  componentId: "sc-24pez4-0"
+  componentId: "sc-trk9om-0"
 })([".restoreButton{margin-top:16px;}"]);
 
 exports.default = _default;

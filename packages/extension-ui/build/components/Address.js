@@ -245,7 +245,7 @@ function Address({
 
 export default styled(Address).withConfig({
   displayName: "Address",
-  componentId: "sc-fpmdq0-0"
+  componentId: "sc-gt91ta-0"
 })(({
   theme
 }) => `

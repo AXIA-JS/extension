@@ -25,7 +25,7 @@ function MenuDivider({
 
 var _default = (0, _styledComponents.default)(MenuDivider).withConfig({
   displayName: "MenuDivider",
-  componentId: "sc-1nxqa93-0"
+  componentId: "sc-jt4y7r-0"
 })(({
   theme
 }) => `

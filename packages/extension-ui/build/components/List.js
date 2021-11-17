@@ -14,7 +14,7 @@ const List = ({
 
 export default styled(List).withConfig({
   displayName: "List",
-  componentId: "sc-eudvqu-0"
+  componentId: "sc-n8zxx7-0"
 })(({
   theme
 }) => `

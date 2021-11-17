@@ -43,7 +43,7 @@ function Button({
 
 export default styled(Button).withConfig({
   displayName: "Button",
-  componentId: "sc-1hhf3ka-0"
+  componentId: "sc-nrii50-0"
 })(({
   isDanger,
   theme

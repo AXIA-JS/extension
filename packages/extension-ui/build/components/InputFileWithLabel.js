@@ -111,7 +111,7 @@ function InputFile({
 
 export default /*#__PURE__*/React.memo(styled(InputFile).withConfig({
   displayName: "InputFileWithLabel",
-  componentId: "sc-sg29kl-0"
+  componentId: "sc-1go79bx-0"
 })(({
   isError,
   theme

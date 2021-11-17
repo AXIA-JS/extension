@@ -212,7 +212,7 @@ Contributed:
 Changes:
 
 - Adjust web3Enable for better on-load detection
-- Support for all latest Substrate/AXIACoin types
+- Support for all latest Substrate/AXIA types
 
 
 ## 0.34.1 Sep 15, 2020
@@ -279,7 +279,7 @@ Changes:
 
 - Allow enter on signing to screens to submit
 - Update to v3 JSON file format (with kdf)
-- Update AXIACoin naming (dropping CC1)
+- Update AXIA naming (dropping CC1)
 - Add base known chain info to icon/ss58 display lookups
 - Adjust IdentityIcon backgrounds between dark/light themes
 
@@ -289,7 +289,7 @@ Changes:
 Changes:
 
 - Indicate password error when account cannot be unlocked on signing
-- Support for new AXIACoin/AXIALunar/Substrate signing payloads
+- Support for new AXIA/AXIALunar/Substrate signing payloads
 
 
 ## 0.30.1 Jun 8, 2020
@@ -336,7 +336,7 @@ Contributed:
 
 Changes:
 
-- Latest dependency updates, base types for all latest AXIACoin/Substrate chains
+- Latest dependency updates, base types for all latest AXIA/Substrate chains
 - Rework base storage access & cross-browser interfaces for consistency
 - UI consistency adjustments & code maintainability cleanups
 
@@ -407,7 +407,7 @@ Contributed:
 Changes:
 
 - Add a setting to switch off camera access
-- Support for latest AXIACoin/Substrate clients with v8 metadata & v4 transactions
+- Support for latest AXIA/Substrate clients with v8 metadata & v4 transactions
 - Remove support for non-operational AXIALunar CC1 network
 
 

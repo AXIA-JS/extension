@@ -126,7 +126,7 @@ function SeedAndPath({
 
 var _default = (0, _styledComponents.default)(SeedAndPath).withConfig({
   displayName: "SeedAndPath",
-  componentId: "sc-181u3hg-0"
+  componentId: "sc-1u2ll6n-0"
 })(({
   theme
 }) => `

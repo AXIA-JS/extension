@@ -108,7 +108,7 @@ function Header({
 
 var _default = /*#__PURE__*/_react.default.memo((0, _styledComponents.default)(Header).withConfig({
   displayName: "Header",
-  componentId: "sc-v6k9s5-0"
+  componentId: "sc-1o10sf8-0"
 })(({
   theme
 }) => `

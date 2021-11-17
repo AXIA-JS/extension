@@ -38,7 +38,7 @@ function Link({
 
 export default styled(Link).withConfig({
   displayName: "Link",
-  componentId: "sc-1u6j2ys-0"
+  componentId: "sc-umj7kt-0"
 })(({
   isDanger,
   theme

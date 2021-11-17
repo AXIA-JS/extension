@@ -39,7 +39,7 @@ function Warning({
 
 var _default = /*#__PURE__*/_react.default.memo((0, _styledComponents.default)(Warning).withConfig({
   displayName: "Warning",
-  componentId: "sc-1u3drz1-0"
+  componentId: "sc-1ygewdz-0"
 })(({
   isDanger,
   theme

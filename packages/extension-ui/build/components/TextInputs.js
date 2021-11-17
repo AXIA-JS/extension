@@ -28,9 +28,9 @@ const TextInput = css(({
 `);
 export const TextArea = styled.textarea.withConfig({
   displayName: "TextInputs__TextArea",
-  componentId: "sc-zy2lqv-0"
+  componentId: "sc-14x5486-0"
 })(["", ""], TextInput);
 export const Input = styled.input.withConfig({
   displayName: "TextInputs__Input",
-  componentId: "sc-zy2lqv-1"
+  componentId: "sc-14x5486-1"
 })(["", ""], TextInput);

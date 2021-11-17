@@ -114,7 +114,7 @@ function Account({
 
 export default styled(Account).withConfig({
   displayName: "Account",
-  componentId: "sc-bbvmyb-0"
+  componentId: "sc-1nfb5fv-0"
 })(({
   theme
 }) => `

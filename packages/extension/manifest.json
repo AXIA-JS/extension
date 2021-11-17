@@ -1,6 +1,6 @@
 {
   "author": "axia.{js}",
-  "description": "Manage your AXIACoin accounts outside of dapps. Injects the accounts and allows signing transactions for a specific account.",
+  "description": "Manage your AXIA accounts outside of dapps. Injects the accounts and allows signing transactions for a specific account.",
   "homepage_url": "https://github.com/axia-js/extension",
   "name": "axia{.js} extension",
   "short_name": "axia{.js}",

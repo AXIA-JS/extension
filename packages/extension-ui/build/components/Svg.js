@@ -12,7 +12,7 @@ const Svg = ({
 
 export default styled(Svg).withConfig({
   displayName: "Svg",
-  componentId: "sc-q69rv1-0"
+  componentId: "sc-1g5cukp-0"
 })(({
   src,
   theme

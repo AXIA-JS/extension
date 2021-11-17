@@ -21,7 +21,7 @@ function MenuItem({
 
 export default styled(MenuItem).withConfig({
   displayName: "MenuItem",
-  componentId: "sc-anwiy8-0"
+  componentId: "sc-xmh0bc-0"
 })(({
   theme
 }) => `

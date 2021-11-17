@@ -44,7 +44,7 @@ function AddAccount({
 
 export default /*#__PURE__*/React.memo(styled(AddAccount).withConfig({
   displayName: "AddAccount",
-  componentId: "sc-92mcc7-0"
+  componentId: "sc-1puksui-0"
 })(({
   theme
 }) => `

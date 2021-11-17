@@ -6,7 +6,7 @@
 
 # ![axia{.js} extension](docs/logo.jpg)
 
-A very simple scaffolding browser extension that injects a [@axia-js/api](https://github.com/axia-js/api) Signer into a page, along with any associated accounts, allowing for use by any dapp. This is an extensible POC implementation of a AXIACoin/Substrate browser signer.
+A very simple scaffolding browser extension that injects a [@axia-js/api](https://github.com/axia-js/api) Signer into a page, along with any associated accounts, allowing for use by any dapp. This is an extensible POC implementation of a AXIA/Substrate browser signer.
 
 As it stands, it does one thing: it _only_ manages accounts and allows the signing of transactions with those accounts. It does not inject providers for use by dapps at this early point, nor does it perform wallet functions where it constructs and submits txs to the network.
 
@@ -18,7 +18,7 @@ As it stands, it does one thing: it _only_ manages accounts and allows the signi
 ![interface screenshots](docs/extension-overview.png)
 
 ## Documentation and examples
-Find out more about how to use the extension as a Dapp developper, cookbook, as well as answers to most frequent questions in the [AXIACoin-js extension documentation](https://axia.js.org/docs/extension/)
+Find out more about how to use the extension as a Dapp developper, cookbook, as well as answers to most frequent questions in the [AXIA-js extension documentation](https://axia.js.org/docs/extension/)
 
 ## Development version
 

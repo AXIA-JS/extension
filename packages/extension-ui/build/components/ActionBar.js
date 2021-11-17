@@ -16,5 +16,5 @@ function ActionBar({
 
 export default styled(ActionBar).withConfig({
   displayName: "ActionBar",
-  componentId: "sc-1qp2k75-0"
+  componentId: "sc-jn6ukm-0"
 })(["align-content:flex-end;display:flex;justify-content:space-between;padding:0.25rem;text-align:right;a{cursor:pointer;}a+a{margin-left:0.75rem;}"]);

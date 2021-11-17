@@ -14,5 +14,5 @@ function VerticalSpace({
 
 export default styled(VerticalSpace).withConfig({
   displayName: "VerticalSpace",
-  componentId: "sc-1pnnvnu-0"
+  componentId: "sc-8zcz7e-0"
 })(["height:100%;"]);

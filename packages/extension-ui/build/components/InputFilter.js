@@ -31,5 +31,5 @@ function InputFilter({
 
 export default styled(InputFilter).withConfig({
   displayName: "InputFilter",
-  componentId: "sc-tsuuiq-0"
+  componentId: "sc-js8s5k-0"
 })(["padding-left:1rem !important;padding-right:1rem !important;"]);

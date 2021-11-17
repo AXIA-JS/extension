@@ -45,5 +45,5 @@ function Accounts({
 
 export default styled(Accounts).withConfig({
   displayName: "Accounts",
-  componentId: "sc-1i83wjr-0"
+  componentId: "sc-1a6qik2-0"
 })(["height:calc(100vh - 2px);overflow-y:scroll;margin-top:-25px;padding-top:25px;scrollbar-width:none;&::-webkit-scrollbar{display:none;}"]);

@@ -58,7 +58,7 @@ function Button({
 
 var _default = (0, _styledComponents.default)(Button).withConfig({
   displayName: "Button",
-  componentId: "sc-1hhf3ka-0"
+  componentId: "sc-nrii50-0"
 })(({
   isDanger,
   theme

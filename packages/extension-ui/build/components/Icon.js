@@ -18,7 +18,7 @@ function Icon({
 
 export default styled(Icon).withConfig({
   displayName: "Icon",
-  componentId: "sc-c8ukvf-0"
+  componentId: "sc-nr7p5x-0"
 })(({
   onClick
 }) => `

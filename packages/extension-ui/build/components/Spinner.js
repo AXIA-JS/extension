@@ -17,5 +17,5 @@ function Spinner({
 
 export default /*#__PURE__*/React.memo(styled(Spinner).withConfig({
   displayName: "Spinner",
-  componentId: "sc-1csqilc-0"
+  componentId: "sc-1w97yup-0"
 })(["bottom:0rem;height:3rem;left:50%;margin-left:-1.5rem;position:absolute;width:3rem;z-index:"]));

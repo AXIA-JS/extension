@@ -50,7 +50,7 @@ function TransactionIndex({
 
 export default styled(TransactionIndex).withConfig({
   displayName: "TransactionIndex",
-  componentId: "sc-5vu9na-0"
+  componentId: "sc-xxgxtm-0"
 })(({
   theme
 }) => `

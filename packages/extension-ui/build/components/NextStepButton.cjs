@@ -45,7 +45,7 @@ function NextStepButton(_ref) {
 
 var _default = (0, _styledComponents.default)(NextStepButton).withConfig({
   displayName: "NextStepButton",
-  componentId: "sc-15gossc-0"
+  componentId: "sc-1fg1l8t-0"
 })(({
   theme
 }) => `

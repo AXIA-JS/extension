@@ -61,7 +61,7 @@ function AddAccount({
 
 var _default = /*#__PURE__*/_react.default.memo((0, _styledComponents.default)(AddAccount).withConfig({
   displayName: "AddAccount",
-  componentId: "sc-92mcc7-0"
+  componentId: "sc-1puksui-0"
 })(({
   theme
 }) => `

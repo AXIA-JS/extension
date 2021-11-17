@@ -53,7 +53,7 @@ const Welcome = function ({
 
 export default styled(Welcome).withConfig({
   displayName: "Welcome",
-  componentId: "sc-17dy7tn-0"
+  componentId: "sc-1vlijk2-0"
 })(({
   theme
 }) => `

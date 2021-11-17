@@ -204,7 +204,7 @@ function AddAccountImage({
 
 export default /*#__PURE__*/React.memo(styled(AddAccountImage).withConfig({
   displayName: "AddAccountImage",
-  componentId: "sc-yicinm-0"
+  componentId: "sc-1b8rybu-0"
 })(({
   theme
 }) => `

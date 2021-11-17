@@ -25,7 +25,7 @@ function ActionText({
 
 export default styled(ActionText).withConfig({
   displayName: "ActionText",
-  componentId: "sc-1rh9904-0"
+  componentId: "sc-n1bwo8-0"
 })(({
   theme
 }) => `

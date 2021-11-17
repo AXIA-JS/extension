@@ -27,7 +27,7 @@ const ButtonArea = function ({
 
 var _default = (0, _styledComponents.default)(ButtonArea).withConfig({
   displayName: "ButtonArea",
-  componentId: "sc-1t7p0uz-0"
+  componentId: "sc-iqj4e0-0"
 })(({
   theme
 }) => `

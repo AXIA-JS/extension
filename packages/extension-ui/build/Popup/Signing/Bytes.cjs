@@ -51,7 +51,7 @@ function Bytes({
 
 var _default = (0, _styledComponents.default)(Bytes).withConfig({
   displayName: "Bytes",
-  componentId: "sc-1smo6lz-0"
+  componentId: "sc-neubxn-0"
 })(["border:0;display:block;font-size:0.75rem;margin-top:0.75rem;td.data{max-width:0;overflow:hidden;text-align:left;text-overflow:ellipsis;vertical-align:middle;width:100%;pre{font-family:inherit;font-size:0.75rem;margin:0;}}td.label{opacity:0.5;padding:0 0.5rem;text-align:right;vertical-align:middle;white-space:nowrap;}"]);
 
 exports.default = _default;

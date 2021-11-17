@@ -41,7 +41,7 @@ function HeaderWithSteps({
 
 export default /*#__PURE__*/React.memo(styled(HeaderWithSteps).withConfig({
   displayName: "HeaderWithSteps",
-  componentId: "sc-1hqpy9p-0"
+  componentId: "sc-1tida15-0"
 })(({
   theme
 }) => `

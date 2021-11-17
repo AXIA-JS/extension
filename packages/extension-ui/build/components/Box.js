@@ -21,7 +21,7 @@ function Box({
 
 export default styled(Box).withConfig({
   displayName: "Box",
-  componentId: "sc-umuyf1-0"
+  componentId: "sc-bmnt5w-0"
 })(({
   theme
 }) => `

@@ -35,5 +35,5 @@ function ButtonWithSubtitle({
 
 const StyledButton = (0, _styledComponents.default)(_index.Button).withConfig({
   displayName: "ButtonWithSubtitle__StyledButton",
-  componentId: "sc-xuq8q1-0"
+  componentId: "sc-1uf19qc-0"
 })(["button{padding-top:0;padding-bottom:0;}p{margin:0;font-size:15px;line-height:20px;}span{display:block;font-size:12px;line-height:16px;}"]);

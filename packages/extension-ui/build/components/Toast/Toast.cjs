@@ -30,7 +30,7 @@ function Toast({
 
 var _default = (0, _styledComponents.default)(Toast).withConfig({
   displayName: "Toast",
-  componentId: "sc-1h1zrbg-0"
+  componentId: "sc-mt0ct8-0"
 })(["position:fixed;display:", ";height:40px;text-align:center;vertical-align:middle;line-height:7px;top:460px;left:calc(50% - 50px);&&{margin:auto;border-radius:25px;background:", ";}"], ({
   visible
 }) => visible ? 'block' : 'none', ({

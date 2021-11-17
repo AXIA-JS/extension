@@ -27,7 +27,7 @@ function Main({
 
 var _default = (0, _styledComponents.default)(Main).withConfig({
   displayName: "Main",
-  componentId: "sc-yuxcql-0"
+  componentId: "sc-lx1lhb-0"
 })(({
   theme
 }) => `

@@ -94,12 +94,12 @@ const alphaNetAccount = {
   name: 'acc',
   type: 'ed25519'
 };
-const accountsWithGenesisHash = [// with AXIACoin genesis Hash
+const accountsWithGenesisHash = [// with AXIA genesis Hash
 {
   address: '5Ggap6soAPaP5UeNaiJsgqQwdVhhNnm6ez7Ba1w9jJ62LM2Q',
   expectedEncodedAddress: '15csxS8s2AqrX1etYMMspzF6V7hM56KEjUqfjJvWHP7YWkoF',
   expectedIconTheme: 'axia',
-  expectedNetworkLabel: 'AXIACoin',
+  expectedNetworkLabel: 'AXIA',
   genesisHash: '0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3',
   type: 'sr25519'
 }, // with AXIALunar genesis Hash

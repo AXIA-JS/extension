@@ -52,7 +52,7 @@ function WebsiteEntry({
 
 var _default = (0, _styledComponents.default)(WebsiteEntry).withConfig({
   displayName: "WebsiteEntry",
-  componentId: "sc-6kv1yh-0"
+  componentId: "sc-yjvywb-0"
 })(({
   theme
 }) => `

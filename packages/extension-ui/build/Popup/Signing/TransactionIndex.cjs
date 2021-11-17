@@ -66,7 +66,7 @@ function TransactionIndex({
 
 var _default = (0, _styledComponents.default)(TransactionIndex).withConfig({
   displayName: "TransactionIndex",
-  componentId: "sc-5vu9na-0"
+  componentId: "sc-xxgxtm-0"
 })(({
   theme
 }) => `

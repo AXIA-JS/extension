@@ -49,7 +49,7 @@ function Dropdown({
 
 export default /*#__PURE__*/React.memo(styled(Dropdown).withConfig({
   displayName: "Dropdown",
-  componentId: "sc-nmjgul-0"
+  componentId: "sc-13l7z1t-0"
 })(({
   isError,
   label,

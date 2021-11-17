@@ -104,7 +104,7 @@ function Request({
 
 export default styled(Request).withConfig({
   displayName: "Request",
-  componentId: "sc-1rk9wi5-0"
+  componentId: "sc-1jc38vo-0"
 })(({
   theme
 }) => `

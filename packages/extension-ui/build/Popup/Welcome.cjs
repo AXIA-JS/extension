@@ -69,7 +69,7 @@ const Welcome = function ({
 
 var _default = (0, _styledComponents.default)(Welcome).withConfig({
   displayName: "Welcome",
-  componentId: "sc-17dy7tn-0"
+  componentId: "sc-1vlijk2-0"
 })(({
   theme
 }) => `

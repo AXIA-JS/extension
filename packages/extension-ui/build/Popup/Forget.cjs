@@ -90,7 +90,7 @@ function Forget({
 
 var _default = (0, _reactRouter.withRouter)((0, _styledComponents.default)(Forget).withConfig({
   displayName: "Forget",
-  componentId: "sc-eve7w2-0"
+  componentId: "sc-1q3ammg-0"
 })([".actionArea{padding:10px 24px;}.center{margin:auto;}.movedWarning{margin-top:8px;}.withMarginTop{margin-top:4px;}"]));
 
 exports.default = _default;

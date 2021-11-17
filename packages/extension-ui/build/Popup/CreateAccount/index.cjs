@@ -118,7 +118,7 @@ function CreateAccount({
 
 var _default = (0, _styledComponents.default)(CreateAccount).withConfig({
   displayName: "CreateAccount",
-  componentId: "sc-14zj6aa-0"
+  componentId: "sc-4xgak2-0"
 })(["margin-bottom:16px;label::after{right:36px;}"]);
 
 exports.default = _default;

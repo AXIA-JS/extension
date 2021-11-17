@@ -105,5 +105,5 @@ function SignArea({
 
 export default styled(SignArea).withConfig({
   displayName: "SignArea",
-  componentId: "sc-cv4yh6-0"
+  componentId: "sc-1x5uq7o-0"
 })(["flex-direction:column;padding:6px 24px;.cancelButton{margin-top:4px;margin-bottom:4px;text-decoration:underline;a{margin:auto;}}"]);

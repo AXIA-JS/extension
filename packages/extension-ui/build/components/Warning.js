@@ -27,7 +27,7 @@ function Warning({
 
 export default /*#__PURE__*/React.memo(styled(Warning).withConfig({
   displayName: "Warning",
-  componentId: "sc-1u3drz1-0"
+  componentId: "sc-1ygewdz-0"
 })(({
   isDanger,
   theme

@@ -39,5 +39,5 @@ function Authorize({
 
 export default styled(Authorize).withConfig({
   displayName: "Authorize",
-  componentId: "sc-42r4rf-0"
+  componentId: "sc-1rg92xy-0"
 })(["overflow-y:auto;&.lastRequest{overflow:hidden;}&&{padding:0;}.request{padding:0 24px;}"]);

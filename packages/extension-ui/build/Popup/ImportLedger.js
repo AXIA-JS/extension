@@ -149,5 +149,5 @@ function ImportLedger({
 
 export default styled(ImportLedger).withConfig({
   displayName: "ImportLedger",
-  componentId: "sc-1gcllnb-0"
+  componentId: "sc-1ymr02b-0"
 })([".refreshIcon{margin-right:0.3rem;}"]);

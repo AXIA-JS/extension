@@ -30,7 +30,7 @@ function Table({
 
 var _default = /*#__PURE__*/_react.default.memo((0, _styledComponents.default)(Table).withConfig({
   displayName: "Table",
-  componentId: "sc-1w4y9t7-0"
+  componentId: "sc-1mcqd9k-0"
 })(({
   theme
 }) => `

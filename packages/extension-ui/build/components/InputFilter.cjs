@@ -47,7 +47,7 @@ function InputFilter({
 
 var _default = (0, _styledComponents.default)(InputFilter).withConfig({
   displayName: "InputFilter",
-  componentId: "sc-tsuuiq-0"
+  componentId: "sc-js8s5k-0"
 })(["padding-left:1rem !important;padding-right:1rem !important;"]);
 
 exports.default = _default;

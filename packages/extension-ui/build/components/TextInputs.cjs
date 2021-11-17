@@ -41,14 +41,14 @@ const TextInput = (0, _styledComponents.css)(({
 
 const TextArea = _styledComponents.default.textarea.withConfig({
   displayName: "TextInputs__TextArea",
-  componentId: "sc-zy2lqv-0"
+  componentId: "sc-14x5486-0"
 })(["", ""], TextInput);
 
 exports.TextArea = TextArea;
 
 const Input = _styledComponents.default.input.withConfig({
   displayName: "TextInputs__Input",
-  componentId: "sc-zy2lqv-1"
+  componentId: "sc-14x5486-1"
 })(["", ""], TextInput);
 
 exports.Input = Input;

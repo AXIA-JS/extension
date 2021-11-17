@@ -29,7 +29,7 @@ function Spinner({
 
 var _default = /*#__PURE__*/_react.default.memo((0, _styledComponents.default)(Spinner).withConfig({
   displayName: "Spinner",
-  componentId: "sc-1csqilc-0"
+  componentId: "sc-1w97yup-0"
 })(["bottom:0rem;height:3rem;left:50%;margin-left:-1.5rem;position:absolute;width:3rem;z-index:"]));
 
 exports.default = _default;

@@ -68,5 +68,5 @@ function AuthManagement({
 
 export default styled(AuthManagement).withConfig({
   displayName: "AuthManagement",
-  componentId: "sc-1p8ptj8-0"
+  componentId: "sc-1m4efn1-0"
 })(["height:calc(100vh - 2px);overflow-y:auto;.empty-list{text-align:center;}"]);

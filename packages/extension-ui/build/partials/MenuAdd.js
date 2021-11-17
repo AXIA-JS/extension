@@ -132,7 +132,7 @@ function MenuAdd({
 
 export default /*#__PURE__*/React.memo(styled(MenuAdd).withConfig({
   displayName: "MenuAdd",
-  componentId: "sc-goigwd-0"
+  componentId: "sc-azulxc-0"
 })(({
   theme
 }) => `

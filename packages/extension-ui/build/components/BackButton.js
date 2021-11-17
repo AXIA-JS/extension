@@ -24,7 +24,7 @@ function BackButton({
 
 export default styled(BackButton).withConfig({
   displayName: "BackButton",
-  componentId: "sc-nyj14m-0"
+  componentId: "sc-1t7ibrk-0"
 })(({
   theme
 }) => `

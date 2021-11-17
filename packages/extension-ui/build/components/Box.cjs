@@ -31,7 +31,7 @@ function Box({
 
 var _default = (0, _styledComponents.default)(Box).withConfig({
   displayName: "Box",
-  componentId: "sc-umuyf1-0"
+  componentId: "sc-bmnt5w-0"
 })(({
   theme
 }) => `

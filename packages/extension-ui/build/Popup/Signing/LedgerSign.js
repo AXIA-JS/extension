@@ -81,5 +81,5 @@ function LedgerSign({
 
 export default styled(LedgerSign).withConfig({
   displayName: "LedgerSign",
-  componentId: "sc-1qi27xg-0"
+  componentId: "sc-1m2gs0i-0"
 })(["flex-direction:column;padding:6px 24px;.danger{margin-bottom:.5rem;}"]);

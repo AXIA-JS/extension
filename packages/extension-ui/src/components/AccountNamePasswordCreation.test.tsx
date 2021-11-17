@@ -18,7 +18,7 @@ import { AccountNamePasswordCreation, Input, InputWithLabel, NextStepButton } fr
 configure({ adapter: new Adapter() });
 
 const account = {
-  name: 'My AXIACoin Account',
+  name: 'My AXIA Account',
   password: 'somepassword'
 };
 

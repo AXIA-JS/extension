@@ -32,7 +32,7 @@ function Checkbox({
 
 export default styled(Checkbox).withConfig({
   displayName: "Checkbox",
-  componentId: "sc-nauasj-0"
+  componentId: "sc-1n3sp7g-0"
 })(({
   theme
 }) => `

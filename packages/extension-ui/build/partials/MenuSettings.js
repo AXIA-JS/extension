@@ -148,7 +148,7 @@ function MenuSettings({
 
 export default /*#__PURE__*/React.memo(styled(MenuSettings).withConfig({
   displayName: "MenuSettings",
-  componentId: "sc-1nlpgb-0"
+  componentId: "sc-7f8b8j-0"
 })(({
   theme
 }) => `

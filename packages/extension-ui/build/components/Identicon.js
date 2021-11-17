@@ -27,7 +27,7 @@ function Identicon({
 
 export default styled(Identicon).withConfig({
   displayName: "Identicon",
-  componentId: "sc-sb18ni-0"
+  componentId: "sc-1thm8o9-0"
 })(({
   theme
 }) => `

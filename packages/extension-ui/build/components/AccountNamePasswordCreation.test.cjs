@@ -27,7 +27,7 @@ var _jsxRuntime = require("react/jsx-runtime");
   adapter: new _enzymeAdapterReact.default()
 });
 const account = {
-  name: 'My AXIACoin Account',
+  name: 'My AXIA Account',
   password: 'somepassword'
 };
 const buttonLabel = 'create account';

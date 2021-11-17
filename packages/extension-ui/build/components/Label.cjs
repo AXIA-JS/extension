@@ -30,7 +30,7 @@ function Label({
 
 var _default = (0, _styledComponents.default)(Label).withConfig({
   displayName: "Label",
-  componentId: "sc-vfik0m-0"
+  componentId: "sc-vs6qy1-0"
 })(({
   theme
 }) => `

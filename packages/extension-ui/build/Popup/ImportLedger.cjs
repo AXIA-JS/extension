@@ -172,7 +172,7 @@ function ImportLedger({
 
 var _default = (0, _styledComponents.default)(ImportLedger).withConfig({
   displayName: "ImportLedger",
-  componentId: "sc-1gcllnb-0"
+  componentId: "sc-1ymr02b-0"
 })([".refreshIcon{margin-right:0.3rem;}"]);
 
 exports.default = _default;

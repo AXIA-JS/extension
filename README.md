@@ -1,10 +1,6 @@
-[![axiajs](https://img.shields.io/badge/axia-js-orange?style=flat-square)](https://axia.js.org)
 ![license](https://img.shields.io/badge/License-Apache%202.0-blue?logo=apache&style=flat-square)
 [![npm](https://img.shields.io/npm/v/@axia-js/extension?logo=npm&style=flat-square)](https://www.npmjs.com/package/@axia-js/extension)
 [![beta](https://img.shields.io/npm/v/@axia-js/extension/beta?label=beta&logo=npm&style=flat-square)](https://www.npmjs.com/package/@axia-js/extension)
-[![maintainability](https://img.shields.io/codeclimate/maintainability-percentage/axia-js/extension?logo=code-climate&style=flat-square)](https://codeclimate.com/github/axia-js/extension)
-
-# ![axia{.js} extension](docs/logo.jpg)
 
 A very simple scaffolding browser extension that injects a [@axia-js/api](https://github.com/axia-js/api) Signer into a page, along with any associated accounts, allowing for use by any dapp. This is an extensible POC implementation of a AXIA/Substrate browser signer.
 
